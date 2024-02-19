@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Task-2</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
+            <div class="container-fluid px-5">
+              <a class="navbar-brand" href="#"><img src="./news-homepage-main/assets/images/logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">New</a>
+                        <a class="nav-link" href="#">Popular</a>
+                        <a class="nav-link" href="#">Trending</a>
+                        <a class="nav-link" href="#">Categories</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid col-12 px-5 my-5 d-md-flex">
+            <div class="col-12 col-md-8">
+                <div class="col-12">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="./news-homepage-main/assets/images/image-web-3-mobile.jpg" class="img-fluid">
+                        <img src="./news-homepage-main/assets/images/image-web-3-desktop.jpg" alt="" srcset="" class="img-fluid">
+                    </picture>
+                </div>
+                <div class="col-12 d-md-flex mt-5">
+                    <div class="col-12 col-md-6">
+                        <h1 class="display-5 main-text">The Bright <br> Future of <br class="d-none d-md-block">Web <br class="d-block d-md-none">3.0?</h1>
+                    </div>
+                    <div class="col-12 col-md-6 my-4 my-md-0">
+                        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+                        <button class="btn read-btn px-4">R E A D M O R E</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid col-12 col-md-4 mx-md-3 px-3 new-container">
+                <div class="col-12 pt-4">
+                    <p class="new-txt">New</p>
+                </div>
+                <div class="col-12 py-3">
+                    <p class="news-head"><a class="news-head" href="#">Hydrogen VS Electric Cars</a></p>
+                    <p class="news-content">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                </div>
+                <hr>
+                <div class="col-12 py-3">
+                    <p class="news-head"><a class="news-head" href="#">The Downsides of AI Artistry</a></p>
+                    <p class="news-content">What are the possible adverse effects of on-demand AI image generation?</p>
+                </div>
+                <hr>
+                <div class="col-12 py-3">
+                    <p class="news-head"><a class="news-head" href="#">Is VC Funding Drying Up?</a></p>
+                    <p class="news-content">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid d-md-flex col-12 px-5 my-5 justify-content-between">
+            <div class="col-12 col-md-3 d-flex py-4 justify-content-between">
+                <div class="col-4">
+                    <img src="./news-homepage-main/assets/images/image-retro-pcs.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-8 px-3">
+                    <p class="h1 small-txt-number">01</p>
+                    <p class="h1 small-txt-header py-1"><a class="small-txt-header" href="#">Reviving Retro PCs</a></p>
+                    <p class="small-txt-content py-1">What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 d-flex py-4 justify-content-between">
+                <div class="col-4">
+                    <img src="./news-homepage-main/assets/images/image-top-laptops.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-8 px-3">
+                    <p class="h1 small-txt-number">02</p>
+                    <p class="h1 small-txt-header py-1"><a class="small-txt-header" href="#">Top 10 Laptops of 2022</a></p>
+                    <p class="small-txt-content py-1">Our best picks for various needs and budgets.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 d-flex py-4 justify-content-between">
+                <div class="col-4">
+                    <img src="./news-homepage-main/assets/images/image-gaming-growth.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-8 px-3">
+                    <p class="h1 small-txt-number">03</p>
+                    <p class="h1 small-txt-header py-1"><a class="small-txt-header" href="#">The Growth of Gaming</a></p>
+                    <p class="small-txt-content py-1">How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
+    </body>
+</html>
